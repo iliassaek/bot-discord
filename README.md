@@ -1,2 +1,6 @@
 # bot-discord
-This bot is made to manage our little community. It might scale to sth bigger.
+This bot is made to manage our little community. It might scale to sth bigger
+
+# Feature
+
+bbot that  says hello.
