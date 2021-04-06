@@ -1,0 +1,18 @@
+import discord
+
+client = discord.Client()
+
+@client.event
+async def on_ready():
+    print('We have logged in as {0.user}'.format(client))
+
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+
+    if message.content.startswith('$hello'):
+        await message.channel.send('Hello! noob')
+        print("some1 have written")
+
+client.run('ODI5MDQ4ODgwNDQzNTU1OTEw.YGyd8A.sGCyou4j4UhSid5aWxllXaOCj20')
