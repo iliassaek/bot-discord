@@ -14,3 +14,7 @@ source discord-env/bin/activate
 
 
 pip install -r requirements.txt
+
+# Environment variables
+
+DISCOR_TOKEN = "TOKEN"
